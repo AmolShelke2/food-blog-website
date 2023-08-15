@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="w-full h-[804px] shadow relative">
+    <div className="w-full h-[804px] shadow relative mb-16">
       <svg
         className=" absolute top-0 right-0 z-[10] h-full w-fit hidden lg:block"
         xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Banner = () => {
             Discover the <span className="text-[#E23744]">Best</span> Food and
             Drinks
           </h1>
-          <p className=" w-[340px]  text-[#444957] text-[16px] leading-5 font-normal mb-4">
+          <p className=" w-[340px]  text-[#444957] text-[16px] leading-[27px] font-normal mb-4">
             Naturally made Healthcare Products for the better care & support of
             your body.
           </p>

@@ -32,7 +32,7 @@ const Banner = () => {
         />
       </svg>
       <header className=" flex justify-between items-center px-6 relative">
-        <div className=" hidden lg:block">
+        <div className="hidden ml-10 mt-2 lg:block">
           <Image src={"/assets/logo.png"} alt="logo" height={83} width={107} />
         </div>
         <div className=" absolute top-4 right-2 sm:top-10 sm:right-10 z-[10]">

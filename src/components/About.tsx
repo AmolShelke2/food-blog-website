@@ -3,8 +3,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" w-full h-[470px] mx-auto bg-[#F6F6F9] mb-16">
-      <div className=" flex flex-col sm:flex-row justify-around items-start">
+    <div className=" w-full h-[470px] sm:mx-auto bg-[#F6F6F9] mb-16">
+      <div className=" flex flex-col sm:flex-row justify-center sm:justify-around items-start">
         <section className=" hidden md:block">
           <Image
             src={"/assets/about.png"}
@@ -13,7 +13,9 @@ const About = () => {
             width={384}
           />
         </section>
-        <section className="w-[375px] md:w-[447px] h-[516px] sm:h-[254px] flex flex-col items-center md:items-start justify-center my-auto gap-[21px]">
+        <section
+          className="w-[375px] md:w-[447px] h-[516px] sm:h-[254px] flex flex-col items-center md:items-start
+         justify-center sm:my-auto gap-[21px] mr-20">
           {/* text fields  */}
           <h2 className=" text-[#0E2368] text-[26px] md:text-[45px] font-semibold leading-[27px]">
             About us

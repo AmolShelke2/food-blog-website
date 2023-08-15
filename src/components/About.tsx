@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className=" w-full h-[470px] mx-auto bg-[#F6F6F9] mb-16">
       <div className=" flex flex-col sm:flex-row justify-around items-start">
-        <section>
+        <section className=" hidden md:block">
           <Image
             src={"/assets/about.png"}
             alt="about"
@@ -13,12 +13,12 @@ const About = () => {
             width={384}
           />
         </section>
-        <section className=" w-[447px] h-[254px] flex flex-col items-start justify-center my-auto gap-[21px]">
+        <section className="w-[375px] md:w-[447px] h-[516px] sm:h-[254px] flex flex-col items-center md:items-start justify-center my-auto gap-[21px]">
           {/* text fields  */}
-          <h2 className=" text-[#0E2368] text-[45px] font-semibold leading-[27px]">
+          <h2 className=" text-[#0E2368] text-[26px] md:text-[45px] font-semibold leading-[27px]">
             About us
           </h2>
-          <p className=" text-[#444957] text-sm font-normal leading-[27px]">
+          <p className=" text-[#444957] w-[275px] md:w-full text-sm font-normal leading-[21px] md:leading-[27px]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry standard dummy text ever
             since the 1500s, when an unknown printer took a galley of type and

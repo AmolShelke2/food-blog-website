@@ -3,9 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer
-      className="flex flex-col sm:flex-row justify-start sm:justify-between sm:items-start sm:py-16 sm:px-10  w-[376px] sm:w-full h-[608px] sm:h-[360px]
-     bg-slate-50 overflow-x-hidden">
+    <footer className="flex flex-col sm:flex-row justify-start sm:justify-between sm:items-start sm:py-16 sm:px-10  w-[376px] sm:w-full h-[608px] sm:h-[360px] overflow-x-hidden">
       <div className=" flex items-center justify-center py-12">
         <Image src={"/assets/logo.png"} height={58} width={75} alt="logo" />
       </div>
